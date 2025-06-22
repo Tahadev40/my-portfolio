@@ -5,7 +5,7 @@ const Home = () => {
   const projects = [
     {
       id: "01",
-      image: "./assets/images/ject1.webp",
+      image: "/src/assets/images/ject1.webp",
       name: "Personal Portfolio",
       year: "2025",
       client: "Taha Ali",
@@ -16,7 +16,7 @@ const Home = () => {
     },
     {
       id: "02",
-      image: "./assets/images/ject2.webp",
+      image: "/src/assets/images/ject2.webp",
       name: "Sneakers Store",
       year: "2025",
       client: "Arezon",
@@ -27,7 +27,7 @@ const Home = () => {
     },
     {
       id: "03",
-      image: "./assets/images/ject3.webp",
+      image: "/src/assets/images/ject3.webp",
       name: "Portfolio",
       year: "2024",
       client: "Taha Ali",
@@ -38,7 +38,7 @@ const Home = () => {
     },
     {
       id: "04",
-      image: "./assets/images/ject4.webp",
+      image: "/src/assets/images/ject4.webp",
       name: "Cykle",
       year: "2025",
       client: "Gaint",
@@ -49,7 +49,7 @@ const Home = () => {
     },
     {
       id: "05",
-      image: "./assets/images/ject5.webp",
+      image: "/src/assets/images/ject5.webp",
       name: "Bmw",
       year: "2025",
       client: "Personal project",
@@ -60,7 +60,7 @@ const Home = () => {
     },
     {
       id: "06",
-      image: "./assets/images/ject6.webp",
+      image: "/src/assets/images/ject6.webp",
       name: "Car-Booking",
       year: "2022",
       client: "Adrian",
@@ -71,7 +71,7 @@ const Home = () => {
     },
     {
       id: "07",
-      image: "./assets/images/ject7.webp",
+      image: "/src/assets/images/ject7.webp",
       name: "SunDown Studio",
       year: "2023",
       client: "Sundown",
@@ -82,7 +82,7 @@ const Home = () => {
     },
     {
       id: "08",
-      image: "./assets/images/ject8.webp",
+      image: "/src/assets/images/ject8.webp",
       name: "Raybon",
       year: "2023",
       client: "Sartakh",
@@ -93,7 +93,7 @@ const Home = () => {
     },
     {
       id: "09",
-      image: "./assets/images/ject9.webp",
+      image: "/src/assets/images/ject9.webp",
       name: "Tripjapan",
       year: "2024",
       client: "zuck",
@@ -104,7 +104,7 @@ const Home = () => {
     },
     {
       id: "10",
-      image: "./assets/images/ject10.webp",
+      image: "/src/assets/images/ject10.webp",
       name: "Tomato",
       year: "202",
       client: "Personal Project",
