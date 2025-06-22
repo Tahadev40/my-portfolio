@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/NeueMontreal-Medium.ttf') format('truetype');
+}
+
+
+html,
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 transparent;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 3px;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;         
+  -ms-overflow-style: none;       
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;                     
+}
