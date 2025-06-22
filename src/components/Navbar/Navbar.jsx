@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react'; 
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,8 +12,12 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 text-[#0B1014] text-[1.6rem] text-xl">
-          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300"><Link to="/">Index</Link></h3>
-          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300"><Link to="/profile">Profile</Link></h3>
+          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300">
+            <Link to="/">Index</Link>
+          </h3>
+          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300">
+            <Link to="/profile">Profile</Link>
+          </h3>
         </div>
 
         {/* Hamburger Button */}
@@ -26,9 +30,13 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="flex flex-col gap-4 mt-4 md:hidden text-[#0B1014] text-lg">
-          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300">Index</h3>
-          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300">Profile</h3>
+        <div className="flex flex-col items-end gap-4 mt-4 md:hidden text-[#0B1014] text-lg">
+          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300">
+            <Link to="/">Index</Link>
+          </h3>
+          <h3 className="cursor-pointer hover:text-[#3E4945] transition duration-300">
+             <Link to="/profile">Profile</Link>
+          </h3>
         </div>
       )}
     </nav>

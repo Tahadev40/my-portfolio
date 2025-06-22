@@ -27,7 +27,7 @@ const Profile = () => {
         </div>
         <div>
           <p className="text-[#0B1014] font-medium">Contact:</p>
-          <p>tahanawazkhan555@gmail.com</p>
+          <p>tahanawazkhan555<br />@gmail.com</p>
         </div>
         <div>
           <p className="text-[#0B1014] font-medium">Current location:</p>
