@@ -23,11 +23,11 @@ const Profile = () => {
         </div>
         <div>
           <p className="text-[#0B1014] font-medium">Availability:</p>
-          <p>March 2025</p>
+          <p>Full Time</p>
         </div>
         <div>
           <p className="text-[#0B1014] font-medium">Contact:</p>
-          <p>hello@yourmail.com</p>
+          <p>tahanawazkhan555@gmail.com</p>
         </div>
         <div>
           <p className="text-[#0B1014] font-medium">Current location:</p>
@@ -35,7 +35,7 @@ const Profile = () => {
         </div>
         <div>
           <p className="text-[#0B1014] font-medium">Copyright:</p>
-          <p>©2025 Your Name</p>
+          <p>©2025 Taha Ali</p>
         </div>
       </div>
       </div>
