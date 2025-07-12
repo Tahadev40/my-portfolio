@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Helmet } from "react-helmet";
+
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-transparent px-8 py-5 font-neue fixed w-full">
+    <nav className="bg-transparent px-8 py-5 font-neue fixed w-full" rel="preload">
       <div className="flex justify-between items-center">
         <div className="text-[#0B1014] text-[1.6rem] font-medium">Taha Ali</div>
 

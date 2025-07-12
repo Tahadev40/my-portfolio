@@ -120,7 +120,7 @@ const Home = () => {
   return (
     <>
       <div className="scroll-smooth">
-        <div className="h-screen bg-[#54625A] font-neue  text-[#0B1014] flex flex-col justify-between p-6 md:p-8">
+        <div className="h-screen bg-[#54625A] font-neue  text-[#0B1014] flex flex-col justify-between p-6 md:p-8" rel="preload">
           {/* Top Main Heading */}
           <div className="py-20">
             <div>
@@ -133,7 +133,7 @@ const Home = () => {
           </div>
 
           {/* Bottom Information Section */}
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-sm md:text-base text-[#0B1014] mb-6">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-sm md:text-base text-[#0B1014] mb-6" rel="preload">
             <div className="col-span-2 md:col-span-1">
               <p className="text-[2.2rem]">Folio:05</p>
             </div>
